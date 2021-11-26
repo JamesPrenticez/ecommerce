@@ -8,17 +8,17 @@ const navigation = [
 
 function Header() {
   return (
-    <header className="flex items-center lg:justify-center h-16 bg-white sticky pl-4">
+    <header className="flex items-center justify-center lg:inline-flex h-16 bg-white sticky pl-4">
 
       <h1 className="font-racing text-5xl hover:text-[pink] hover:cursor-pointer">
         Poppins
       </h1>
     
-      <nav className="inline-flex space-x-4 pl-4 mt-4 border-b hover:border-red-500">
+      <nav className="hidden lg:inline-flex space-x-4 ml-8">
         {navigation.map((item, index) => (
           <p
             key={index}
-            className=""
+            className="hover:border-b-8 hover:border-red-500 hover:cursor-pointer h-16 w-full pt-7"
           >
             {item.name}
           </p>
