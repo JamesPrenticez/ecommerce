@@ -5,7 +5,9 @@ export const sliderItems = [
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 10% OFF FOR NEW ARRIVALS.",
     bg: "#e05f74",
-    txt: "white"
+    txt: "white",
+    btn: "gold",
+    btnTxt: "black"
   },
   {
     id: 2,
@@ -13,7 +15,9 @@ export const sliderItems = [
     title: "AUTUMN COLLECTION",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 25% OFF FOR NEW ARRIVALS.",
     bg: "pink",
-    txt: "black"
+    txt: "black",
+    btn: "Fuchsia",
+    btnTxt: "white"
   },
   {
     id: 3,
@@ -21,7 +25,9 @@ export const sliderItems = [
     title: "SUMMER SALE",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 50% OFF FOR NEW ARRIVALS.",
     bg: "#0190b8",
-    txt: "white"
+    txt: "white",
+    btn: "white",
+    btnTxt: "black"
   },
   {
     id: 4,
@@ -29,6 +35,8 @@ export const sliderItems = [
     title: "AUTUMN COLLECTION",
     desc: "DON'T COMPROMISE ON STYLE! GET FLAT 100% OFF FOR NEW ARRIVALS.",
     bg: "gold",
-    txt: "black"
+    txt: "black",
+    btn: "black",
+    btnTxt: "white"
   },
 ];

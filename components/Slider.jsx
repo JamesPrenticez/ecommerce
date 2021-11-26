@@ -56,6 +56,17 @@ function Slider() {
           >
             <p className={"text-poppins text-5xl "}>{sliderItems[activeIndex].desc}</p>
           </div>
+          <div
+            className="w-full col-start-7 col-span-5 row-start-5 flex items-center justify-center"
+            style={{color: `${sliderItems[activeIndex].txt}`}}
+          >
+            <button 
+              className={"text-poppins text-5xl w-3/5 h-36 rounded-lg text-white"}
+              style={{backgroundColor: `${sliderItems[activeIndex].btn}`, color: `${sliderItems[activeIndex].btnTxt}`}}
+            >
+                VIEW ITEMS
+            </button>
+          </div>
 
           {/* Left Arrow */}
           <div 
