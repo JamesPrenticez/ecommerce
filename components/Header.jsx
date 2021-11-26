@@ -18,7 +18,7 @@ function Header() {
         {navigation.map((item, index) => (
           <p
             key={index}
-            className="hover:border-b-8 hover:border-red-500 hover:cursor-pointer h-16 w-full pt-7"
+            className="hover:border-b-8 hover:border-[pink] hover:cursor-pointer h-16 w-full pt-7"
           >
             {item.name}
           </p>
