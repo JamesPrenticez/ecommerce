@@ -40,3 +40,36 @@ export const sliderItems = [
     btnTxt: "white"
   },
 ];
+
+export const cata = [
+  {
+    name: "Tops",
+    src: "",
+    color: ""
+  },
+  {
+    name: "Dresses",
+    src: "",
+    color: ""
+  },
+  {
+    name: "Bottoms",
+    src: "",
+    color: ""
+  },
+  {
+    name: "Jackets",
+    src: "",
+    color: ""
+  },
+  {
+    name: "Shoes",
+    src: "",
+    color: ""
+  },
+  {
+    name: "New",
+    src: "",
+    color: ""
+  },
+]

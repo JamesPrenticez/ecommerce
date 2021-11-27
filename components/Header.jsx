@@ -3,6 +3,7 @@ const navigation = [
   {name: "DRESSES", href: "/"},
   {name: "BOTTOMS", href: "/"},
   {name: "JACKETS", href: "/"},
+  {name: "SHOES", href: "/"},
   {name: "NEW", href: "/"},
 ]
 
